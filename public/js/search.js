@@ -50,7 +50,7 @@ async function performSearch(query) {
                     <div class="bar-rating" data-fill="${fill}">
                         <span></span><span></span><span></span><span></span><span></span>
                     </div>
-                    <span class="search-row-score">${(score / 10).toFixed(1)}</span>
+                    <span class="search-row-score">${(score / 20).toFixed(1)}</span>
                 </div>` : ''}
             `;
             resultsEl.appendChild(row);

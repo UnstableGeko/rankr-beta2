@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class MiniServer {
     public static void main(String[] args) throws Exception {
-        int port = 8080;
+        int port = 80;
         Path root = Paths.get("..").toAbsolutePath().normalize();
 
         Properties config = new Properties();
